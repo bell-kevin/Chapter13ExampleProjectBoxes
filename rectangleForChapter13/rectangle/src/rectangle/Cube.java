@@ -34,7 +34,7 @@ public class Cube extends Rectangle {
     } // end mutator method
 
     public boolean isCube() {
-        return (width == height) && (length == width) && (length == height); // end if/else condition
+        return (width == height) && (length == width) && (length == height);
     } // end isCube method
 
     @Override
