@@ -56,7 +56,7 @@ public class Rectangle {
     } // end isSquare method
 
     public String display() {
-        String result = "New object: \n" + this.name + ", " + "dimension "
+        String result = "New object: \n" + this.name + ", " + "dimensions: "
                 + getLength() + " x " + getWidth() + "\n";
         if (isSquare()) {
             result += "This object is a square \n";
