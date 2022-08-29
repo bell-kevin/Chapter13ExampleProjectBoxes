@@ -2,7 +2,7 @@
  * Rectangle.java
  * Kevin Bell
  *
- * This class is the parent or super class of this program.
+ * This class is the parent/super class of this program.
  **************************************************************************** */
 package rectangle;
 
