@@ -32,17 +32,15 @@ public class Cube extends Rectangle {
     void setHeight(double height) {
         this.height = height;
     } // end mutator method
-    
-    public boolean isCube(){
-         if ((width == height) && (length == width) && (length == height)) {
+
+    public boolean isCube() {
+        if ((width == height) && (length == width) && (length == height)) {
             return true;
         } else {
             return false;
         } // end if/else condition
     } // end isCube method
-    
-    
-    //the below section needs work - start here on monday morning
+
     @Override
     public String display() {
         String result = "New object: \n" + this.name + ", " + "dimensions: "
