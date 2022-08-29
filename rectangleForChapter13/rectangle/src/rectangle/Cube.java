@@ -45,7 +45,7 @@ public class Cube extends Rectangle {
     //the below section needs work - start here on monday morning
     @Override
     public String display() {
-        String result = "New object: \n" + this.name + ", " + "dimension "
+        String result = "New object: \n" + this.name + ", " + "dimensions: "
                 + getLength() + " x " + getWidth() + " x " + getHeight() + "\n";
         if (isCube()) {
             result += "This object is a cube \n";
