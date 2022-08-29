@@ -15,6 +15,8 @@ public class Driver {
         Rectangle paper = new Rectangle();
         ArrayList<Long> rectangle = new ArrayList<>();
         ArrayList<Long> cube = new ArrayList<>();
+        Cube box = new Cube();
+        Rectangle square = new Rectangle();
         double length = 0, width = 0, height = 0;
         paper.setLength(length);
         paper.setWidth(width);
