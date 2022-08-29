@@ -39,6 +39,14 @@ public class Rectangle {
         return this.width;
     }// end accessor method
 
+    public String getName() {
+        return this.name;
+    } // end accessor method
+
+    void setName(String name) {
+        this.name = name;
+    } // end mutator method
+
     void setLength(double length) {
         this.length = length;
     } // end mutator method
@@ -56,7 +64,7 @@ public class Rectangle {
     } // end isSquare method
 
     public String display() {
-        String result = "New object: \n" + this.name + ", " + "dimensions: "
+        String result = this.name + ", " + "dimensions: "
                 + getLength() + " x " + getWidth() + "\n";
         if (isSquare()) {
             result += "This object is a square \n";
@@ -66,8 +74,8 @@ public class Rectangle {
         perimeter = 2 * length + 2 * width;
         area = length * width;
         result += "Perimeter: " + this.perimeter + "\n";
-        result += "Area: " + this.area;
-        System.out.println(result);
+        result += "Area: " + this.area + "\n";
+        //System.out.println(result);
         return result;
     } // end display method
 } // end rectangleClass class
