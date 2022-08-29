@@ -13,7 +13,9 @@ public class Driver {
     public static void main(String[] args) {
         System.out.println("Ch 6 Rectangle Project by Kevin Bell \n");
         Rectangle paper = new Rectangle();
-        double length = 0, width = 0, height =0; // i don't know if i did this part wrong
+        ArrayList<Long> rectangle = new ArrayList<>();
+        ArrayList<Long> cube = new ArrayList<>();
+        double length = 0, width = 0, height = 0; // i don't know if i did this part wrong
         paper.setLength(length);
         paper.setWidth(width);
         paper.isSquare();
